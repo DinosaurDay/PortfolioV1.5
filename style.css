@@ -3,26 +3,25 @@
     padding: 0;
 }
 
-main {
-    width: 100vw;
-    height: 100vh;
+body {
     background-color: rgb(36, 35, 35);
+}
+
+/*Mobile first*/
+
+header {
+    width: 100vw;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.msg-container {
-    width: clamp(150px, 20vw, 400px);
-    height: 25%;
-    display: flex;
-    align-items: center;
-}
-
-h1 {
+.disclaimer-msg {
     text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     font-size: clamp(16px, 2vw, 24px);
 }
 
@@ -30,7 +29,6 @@ h1 {
     position: absolute;
     top: 20%;
     left: 0;
-    /* width: 100px; */
     height: 2px;
     background: white;
     animation: moveLine 6s linear infinite;
