@@ -141,7 +141,7 @@ h3 {
         width: 100px;
     }
     100% {
-        transform: translateX(100vw) scaleX(0);
+        transform: translateX(95vw) scaleX(0);
         opacity: 0;
         width: 0px;
     }
@@ -159,7 +159,7 @@ h3 {
         width: 100px;
     }
     100% {
-        transform: translateX(-100vw) scaleX(0);
+        transform: translateX(-95vw) scaleX(0);
         opacity: 0;
         width: 0px;
     }
