@@ -1,6 +1,14 @@
+/*Reset*/
+
 * {
     margin: 0;
     padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -10,7 +18,6 @@ body {
 /*Mobile first*/
 
 header {
-    width: 100vw;
     height: 10vh;
     display: flex;
     justify-content: center;
@@ -30,16 +37,61 @@ main {
 }
 
 section {
-    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+}
+
+.pp-container {
+    width: 300px;
+    height: 300px;
+    /* align-self: center; */
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.pp-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer {
+    height: 5vh;
+}
+
+footer ul {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    list-style: none;
+}
+
+footer ul li {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(10px, 3vw, 15px);
+}
+
+footer ul li a:hover {
+    color: cadetblue;
+    text-decoration: underline;
 }
 
 /*Text*/
 
+h1 {
+    margin: 0 20px;
+}
+
 h1,
-h2 {
+h2,
+p {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0 10px;
 }
 
 h1 {
@@ -47,14 +99,14 @@ h1 {
 }
 
 h2 {
-    font-size: clamp(20px, 3vw, 40px);
+    font-size: clamp(20px, 3vw, 33px);
 }
 
 /*Animations*/
 
 .line {
     position: absolute;
-    top: 20%;
+    top: 2%;
     left: 0;
     height: 2px;
     background: white;
@@ -63,7 +115,7 @@ h2 {
 
 .line-revert {
     position: absolute;
-    top: 68%;
+    top: 8%;
     right: 0;
     height: 2px;
     background: white;
