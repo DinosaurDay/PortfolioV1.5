@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Nom du projet",
+            "description": "Courte description du projet, ses objectifs et ses spécificités.",
+            "image_url": "https://exemple.com/mon-image.jpg",
+            "tags": [
+                "Web",
+                "JavaScript",
+                "React"
+            ],
+            "url": "https://exemple.com/mon-lien.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Deuxième projet",
+            "description": "Autre exemple de projet.",
+            "image_url": "https://exemple.com/une-autre-image.jpg",
+            "tags": [
+                "Python",
+                "Data",
+                "API"
+            ],
+            "url": "https://exemple.com/mon-lien.jpg"
+        }
+    ]
+}
