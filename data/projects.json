@@ -2,7 +2,7 @@
     "projects": [
         {
             "id": 1,
-            "name": "RCD",
+            "name": "Répertoire Culture Découverte",
             "description": "Premier projet WordPress qui m'a permis de créer un thème, utiliser des plugins et développer en PHP.",
             "image_url": "assets/projects_thumbnails/rcd.png",
             "tags": [
