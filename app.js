@@ -12,9 +12,9 @@ function getMyAge(birthday, date) {
     ) {
         age -= 1;
     }
-    console.log(age + " ans");
     return age;
 }
 
-document.getElementById("my-birthday").innerHTML = getMyAge(myBirthday, date);
+document.getElementById("my-birthday").innerHTML =
+    getMyAge(myBirthday, date) + " ans";
 document.getElementById("copyright-year").innerHTML = date.getFullYear();
