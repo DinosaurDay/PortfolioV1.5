@@ -54,6 +54,12 @@ section {
     margin: 20px;
 }
 
+.about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .intel {
     color: var(--intel-color);
 }
@@ -153,7 +159,6 @@ section {
 
 .project-card {
     position: relative;
-    width: 300px;
     border: var(--font-main-color) solid 1px;
     transition: var(--transition-btn);
 }
@@ -260,6 +265,66 @@ h2 {
 
 h3 {
     font-size: clamp(15px, 5vw, 19px);
+}
+
+@media screen and (min-width: 1000px) {
+    main {
+        margin: 0 50px;
+    }
+
+    .about-container {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .about-container p {
+        width: 1200px;
+        font-size: 18px;
+    }
+
+    .links-container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .links-container div {
+        width: 20%;
+    }
+
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cards-container div {
+        width: 900px;
+        height: 180px;
+    }
+
+    .cards-container div a {
+        flex-direction: row;
+    }
+
+    .thumbnail-container {
+        flex: 0 0 20%;
+    }
+
+    .thumbnail-container img {
+        width: 60%;
+        height: 60%;
+    }
+
+    .desc-container {
+        margin-top: 20px;
+        align-items: flex-start;
+    }
+
+    .desc-container p {
+        height: auto;
+        text-align: start;
+    }
 }
 
 /*Animations*/
