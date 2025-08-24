@@ -2,27 +2,50 @@
     "projects": [
         {
             "id": 1,
-            "name": "Nom du projet",
-            "description": "Courte description du projet, ses objectifs et ses spécificités.",
-            "image_url": "https://exemple.com/mon-image.jpg",
+            "name": "RCD",
+            "description": "Premier projet WordPress qui m'a permis de créer un thème, utiliser des plugins et développer en PHP.",
+            "image_url": "assets/projects_thumbnails/rcd.png",
             "tags": [
-                "Web",
-                "JavaScript",
-                "React"
+                "Dev",
+                "PHP",
+                "Wordpress"
             ],
-            "url": "https://exemple.com/mon-lien.jpg"
+            "url": "https://wordpress.noah-abraham.fr/"
         },
         {
             "id": 2,
-            "name": "Deuxième projet",
-            "description": "Autre exemple de projet.",
-            "image_url": "https://exemple.com/une-autre-image.jpg",
+            "name": "Snake",
+            "description": "Petit projet de recréation du jeu Snake en JS à l'aide de tutoriels.",
+            "image_url": "assets/projects_thumbnails/snake.png",
             "tags": [
-                "Python",
-                "Data",
-                "API"
+                "Dev",
+                "JS",
+                "Game"
             ],
-            "url": "https://exemple.com/mon-lien.jpg"
+            "url": "data/projects/Snake/snake.html"
+        },
+        {
+            "id": 3,
+            "name": "Receipt Wysiwyg",
+            "description": "Petit éditeur wysiwyg réalisé durant mon stage de DUT, qui permet de baliser du texte en fonction du ticket de caisse souhaité.",
+            "image_url": "assets/projects_thumbnails/receipt_wysiwyg.png",
+            "tags": [
+                "Dev",
+                "JS",
+                "Tool"
+            ],
+            "url": "data/projects/ReceiptWYSIWYG/index.html"
+        },
+        {
+            "id": 4,
+            "name": "Kunaï",
+            "description": "Modélisation 3D d'un kunaï inspiré d'un jeu vidéo avec blender.",
+            "image_url": "assets/projects_thumbnails/kunai.png",
+            "tags": [
+                "3D",
+                "Blender"
+            ],
+            "url": "https://skfb.ly/pA87Z"
         }
     ]
 }
