@@ -46,4 +46,7 @@ function getMyAge(birthday, date) {
 
 document.getElementById("my-birthday").innerHTML =
     getMyAge(myBirthday, date) + " ans";
+console.log("J'ai " + age + " ans");
+
 document.getElementById("copyright-year").innerHTML = date.getFullYear();
+console.log("Copyright " + date.getFullYear());

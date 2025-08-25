@@ -8,14 +8,15 @@
 a {
     color: var(--font-main-color);
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 /*Var*/
 
 :root {
-    --bg-color: #242323;
-    --intel-color: #ffa600c9;
+    --bg-color: #15202b;
+    /* --bg-color: #242323; */
+    --intel-color: rgb(29, 155, 240);
     --font-main-color: #ffffff;
     --links-hover: #5f9ea0;
     --bg-btn-color: rgb(128, 128, 128, 0.35);
@@ -38,7 +39,7 @@ header {
 .disclaimer-msg {
     text-align: center;
     color: var(--intel-color);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-weight: bold;
     font-size: clamp(16px, 2vw, 24px);
 }
@@ -232,7 +233,7 @@ footer ul {
 
 footer ul li {
     color: var(--font-main-color);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: clamp(10px, 3vw, 15px);
 }
 
@@ -252,7 +253,7 @@ h2,
 h3,
 p {
     color: var(--font-main-color);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 h1 {
