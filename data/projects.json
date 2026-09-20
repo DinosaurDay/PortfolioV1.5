@@ -46,6 +46,17 @@
                 "Blender"
             ],
             "url": "https://skfb.ly/pA87Z"
+        },
+        {
+            "id": 5,
+            "name": "Habitelis",
+            "description": "Réalisation d'un site vitrine afin de proposer un service d'entretien de domicile dans la région.",
+            "image_url": "assets/projects_thumbnails/habitelis.svg",
+            "tags": [
+                "Dev",
+                "Pro"
+            ],
+            "url": "https://www.habitelis.fr/"
         }
     ]
 }
